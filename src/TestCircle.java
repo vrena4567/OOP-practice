@@ -19,6 +19,12 @@ public class TestCircle {
         //The circle has radius of 2.0 and area of 12.566370614359172
 
         Circle c3 = new Circle(2.0,"red");
-        System.out.println("The cirsle has radius of " + c3.getRadius() + " and area of " + c3.getArea());
+        System.out.println("The circle has radius of " + c3.getRadius() + " and area of " + c3.getArea());
+
+        Circle c4 = new Circle();
+        c4.setRadius(5.5);
+        System.out.println("This circle has radius of " + c4.getRadius() + " which area equals to " + c4.getArea());
+        c4.setColor("blue");
+        System.out.println("Its color is " + c4.getColor());
     }
 }
