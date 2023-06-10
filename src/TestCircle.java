@@ -26,5 +26,10 @@ public class TestCircle {
         System.out.println("This circle has radius of " + c4.getRadius() + " which area equals to " + c4.getArea());
         c4.setColor("blue");
         System.out.println("Its color is " + c4.getColor());
+
+        Circle c6 = new Circle(6.6);
+        System.out.println(c6.toString());
+        System.out.println(c6);
+        System.out.println("Operator '+' invokes toString() too: " + c6);
     }
 }

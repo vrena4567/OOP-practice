@@ -6,19 +6,22 @@ public class Circle {
     // Constructors (overloaded)
     /** Constructs a Circle instance with default value for radius and color */
     public Circle() {  // 1st (default) constructor
-        radius = 1.0;
-        color = "red";
+        this.radius = 1.0;
+        this.color = "red";
     }
 
     /** Constructs a Circle instance with the given radius and default color */
     public Circle(double r) {  // 2nd constructor
-        radius = r;
-        color = "red";
+        this.radius = r;
+        this.color = "red";
     }
 
     public Circle(double radius, String color) {  // 3rd constructor
         this.radius = radius;
         this.color = color;
+    }
+    public String toString() {
+        return "Circle[radius= " + radius + " color= " + color + "]";
     }
 
     /** Returns the radius */
