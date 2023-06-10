@@ -4,7 +4,7 @@
 
 This first exercise shall lead you through all the basic concepts in OOP.
 
-![Circle](res/Circle 1.PNG)
+![Circle](res/Circle%201.PNG)
 
 A class called `Circle` is designed as shown in the following class diagram. It contains:
 
@@ -193,4 +193,4 @@ System.out.println("Operator '+' invokes toString() too: " + c6);  // '+' invoke
 
 The final class diagram for the `Circle` class is as follows:
 
-![Circle](res/Circle 2.PNG)
+![Circle](res/Circle%202.PNG)
